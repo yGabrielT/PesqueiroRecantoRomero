@@ -158,7 +158,7 @@ body
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 97px;
     
 
@@ -177,7 +177,7 @@ body
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 45px;
     padding: 1000px;
     text-justify: auto;
@@ -201,5 +201,236 @@ body
 }
 
 /* image 4 */
+.Precos
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Precos > h1
+{
+    font-family: 'Arial' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 97px;
+    
+
+    color: #000;
+}
+
+.PreçosTabela
+{
+    width: 90%;
+    height: 800px;
+    background: #FF5C37;
+    border-radius: 35px;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.TabelaDentro
+{
+    margin: 20px;
+    border-radius: 35px;
+    width: 30%;
+    height: 700px;
+    background: #DCDCDC;
+}
+
+/* Rectangle 13 */
+
+.RESERVA, .CONTATO
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.RESERVA > h1, .CONTATO > h1
+{
+    font-family: 'Arial' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 97px;
+    
+
+    color: #000;
+}
+
+.RESERVATabela
+{
+    width: 60%;
+    height: 250px;
+    background: #FF5C37;
+    border-radius: 250px;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Rectangle 13 */
+
+    
+
+}
+
+.RESERVATabela > img
+{
+
+    width: 20%;
+    height: auto;
+    
 
 
+}
+
+.RESERVATabela > h1
+{
+    font-family: 'Arial' ;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 80px;
+    margin-left: 4%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 50px;
+    color: #FFFFFF;
+    
+}
+
+.Mapa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Mapa > h1
+{
+    font-family: 'Arial' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 97px;
+    
+
+    color: #000;
+}
+
+.MapaTabela 
+{
+    width: 90%;
+    height: 800px;
+    background: #FF5C37;
+    border-radius: 35px;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.MapaTabela > iframe
+{
+    width: 97%;
+    height: 97%;
+    margin-left:-700px;
+    margin-right:-700px;
+    border-radius: 35px;
+}
+
+.Fotos
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Fotos > h1
+{
+    font-family: 'Arial' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 97px;
+    
+
+    color: #000;
+}
+
+.FotosTabela 
+{
+    width: 90%;
+    height: 800px;
+    background: #FF5C37;
+    border-radius: 35px;
+    
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper
+{
+    
+    width: 95%;
+    height: 93%;
+    border-radius: 35px;
+}
+.swiper-slide img
+{
+    width: 100%;
+    height: auto;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #FF5C37;
+}
+
+.swiper .swiper-pagination-bullet-active
+{
+    background: #FF5C37;
+}
+
+.CONTATOTabela > img
+{
+    width: 26%;
+    height: auto;
+    margin: 5px;
+}
+
+.CONTATOTabela
+{
+    width: 40%;
+    height: auto;
+    background: #FF5C37;
+    border-radius: 250px;
+
+    margin: 0px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Rectangle 13 */
+
+    
+
+}
+
+#instaImg
+{
+    width: 28.5%;
+    height: auto;
+}
