@@ -4,7 +4,7 @@ body
     background-image: url('../img/Concrete-Texture-2.jpg');
     margin: 0;
     background-size: 1300px;
-    
+    box-sizing: border-box;
 
     
 
@@ -23,7 +23,8 @@ body
 .Header > img
 {
     margin-left: 30px;
-    
+    width: 8%;
+    height: auto;
 }
 
 .HeaderLinks
@@ -31,20 +32,20 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 300PX;
+    margin-left: 10%;
     color: #fff;
     
 }
 .HeaderLinks > a
 {
-    margin-right: 50px;
+    margin-right: 3.6vw;
     text-decoration: none;
-    font-size: 20px;
+    font-size: .5vw;
     display: flex;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 631;
-    font-size: 36px;
+    font-size: 1.8vw;
     line-height: 44px;
     color: #FFFFFF;
     z-index: 2;
@@ -65,6 +66,7 @@ body
 
 .backTopImage
 {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,18 +75,21 @@ body
 
 .backTopImage > img
 {
+    position: relative;
     display: flex;
-    width: 1000px;
+    width: 100%;
     margin-top: -10px;
     margin-left: -20px;
 }
 
 .TopImageText
 {
+    z-index: 1;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -500px;
+    
 }
 
 .TopImageText > h1
@@ -96,15 +101,15 @@ body
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 900;
-    font-size: 100px;
-    line-height: 97px;
+    font-size: 5vw;
+    line-height: 4.5vw;
     
 
     color: #FF5C37;
 
-    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-width: .25vw;
     -webkit-text-stroke-color: black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0vw .2vw .2vw rgba(0, 0, 0, 0.25);
 
 }
 
@@ -117,10 +122,10 @@ body
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 97px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: -90px;
+    font-size: 2.5vw;
+    line-height: 4.5vw;
+    text-shadow: 0vw .2vw .2vw rgba(0, 0, 0, 0.25);
+    margin-top: -4.5vw;
     color: #FFEFBC;
 
 
@@ -135,12 +140,12 @@ body
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 1000;
-    font-size: 70px;
-    line-height: 97px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 4.3vw;
+    line-height: 4.5vw;
+    text-shadow: 0vw .2vw .2vw rgba(0, 0, 0, 0.25);
     margin-top: 0px;
     color: #FFFFFF;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: .15vw;
     -webkit-text-stroke-color: black;
 
 }
@@ -148,29 +153,43 @@ body
 .SobreNos
 {
     position: relative;
-    
+    background-color: #FF5C37;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: -.1%;
 }
+
+
 
 #imgfundo
 {
-    max-width: 100%;
+    width: 100%;
     height: 700px;
 }
 
-.SobreNos > h1
+.SobreNosDesc
 {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SobreNosDesc > h1
+{
+    
     z-index: 1;
-    margin-left: -50%;
-    margin-top: -25%;
+    
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 97px;
+    font-size: 4.5vw;
+    line-height: 0px;
+    margin-top: 10%;
+    margin-bottom: -5%;
     
 
     color: #000;
@@ -179,18 +198,17 @@ body
     
 }
 
-.SobreNos > h2
+.SobreNosDesc > h2
 {
-    position: absolute;
+    
     z-index: 1;
-    margin-left: -50%;
-    margin-top: 5%;
+    padding: 10%;
     font-family: 'Arial' ;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 45px;
-    padding: 1000px;
+    font-size: 1.7vw;
+    line-height: 120%;
+    
     text-justify: auto;
     display: flex;
     align-items: center;
@@ -205,10 +223,11 @@ body
 
 #imgFrente
 {
-    position: absolute;
-    width: 35%;
-    height: auto;
-    margin-right: -50%;
+    
+    max-width: 28%;
+    margin-right: 5%;
+    
+    
 }
 
 /* image 4 */
@@ -235,7 +254,7 @@ body
 .PreçosTabela
 {
     width: 90%;
-    height: 800px;
+    height: aut;
     background: #FF5C37;
     border-radius: 35px;
     padding: 10px;
@@ -250,7 +269,7 @@ body
     margin: 20px;
     border-radius: 35px;
     width: 30%;
-    height: 700px;
+    height: 45vw;
     background: #DCDCDC;
 }
 
@@ -278,7 +297,7 @@ body
 
 .RESERVATabela
 {
-    width: 60%;
+    width: fit-content;
     height: 250px;
     background: #FF5C37;
     border-radius: 250px;
@@ -299,7 +318,7 @@ body
 
     width: 20%;
     height: auto;
-    
+    margin-right: 0.3%;
 
 
 }
@@ -313,8 +332,8 @@ body
     text-decoration: none;
     transition: .2s;
     font-weight: 1000;
-    font-size: 50px;
-    margin-left: 4%;
+    font-size: 60px;
+    
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 50px;
     color: #FFFFFF;
@@ -325,7 +344,7 @@ body
 {
     color: #29A71A;
     text-decoration: underline;
-    transform: scale(1.07);
+    transform: scale(1.025);
 }
 
 .Mapa
@@ -445,7 +464,7 @@ body
 
 .CONTATOTabela
 {
-    width: 43%;
+    width:fit-content;
     height: auto;
     background: #FF5C37;
     border-radius: 250px;
