@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     
@@ -38,7 +43,7 @@ body
 }
 .HeaderLinks > a
 {
-    margin-right: 3.6vw;
+    margin-right: 3vw;
     text-decoration: none;
     font-size: .5vw;
     display: flex;
@@ -233,6 +238,8 @@ body
 /* image 4 */
 .Precos
 {
+    margin-top: 5%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -253,8 +260,8 @@ body
 
 .PreçosTabela
 {
-    width: 90%;
-    height: aut;
+    width: 85%;
+    height: auto;
     background: #FF5C37;
     border-radius: 35px;
     padding: 10px;
@@ -262,6 +269,13 @@ body
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.PreçosTabela > embed
+{
+    width: 100%;
+    height: 900px;
+    border-radius: 35px;
 }
 
 .TabelaDentro
@@ -277,6 +291,7 @@ body
 
 .RESERVA, .CONTATO
 {
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,6 +364,7 @@ body
 
 .Mapa
 {
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -391,6 +407,7 @@ body
 
 .Fotos
 {
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
