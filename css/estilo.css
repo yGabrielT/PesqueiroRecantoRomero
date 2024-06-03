@@ -21,6 +21,7 @@ body
     align-items: center;
     justify-content: flex-start;
     padding: 0px;
+    width: 100%;
     
     
 }
@@ -28,7 +29,7 @@ body
 .Header > img
 {
     margin-left: 30px;
-    width: 8%;
+    width: 10%;
     height: auto;
 }
 
@@ -51,7 +52,7 @@ body
     font-style: normal;
     font-weight: 631;
     font-size: 1.8vw;
-    line-height: 44px;
+    line-height: 1.6vw;
     color: #FFFFFF;
     z-index: 2;
     transition: .2s;
@@ -74,17 +75,21 @@ body
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .backTopImage > img
 {
     position: relative;
     display: flex;
-    width: 100%;
-    margin-top: -10px;
-    margin-left: -20px;
+    width: 51.4vw;
+    height: auto;
+    margin-left: -2%;
+    margin-top: -2%;
+    
+    
+    
 }
 
 .TopImageText
@@ -279,6 +284,13 @@ body
     border-radius: 35px;
 }
 
+.PreçosTabela > img
+{
+    width: 85vw;
+    height: auto;
+    border-radius: 35px;
+}
+
 .TabelaDentro
 {
     margin: 20px;
@@ -314,7 +326,7 @@ body
 .RESERVATabela
 {
     width: fit-content;
-    height: 250px;
+    height: auto;
     background: #FF5C37;
     border-radius: 250px;
     padding: 10px;
@@ -332,9 +344,9 @@ body
 .RESERVATabela > img
 {
 
-    width: 20%;
+    width: 15vw;
     height: auto;
-    margin-right: 0.3%;
+    
 
 
 }
@@ -348,7 +360,7 @@ body
     text-decoration: none;
     transition: .2s;
     font-weight: 1000;
-    font-size: 60px;
+    font-size: 3.2vw;
     
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 50px;
@@ -433,7 +445,7 @@ body
     height: 800px;
     background: #FF5C37;
     border-radius: 35px;
-    
+    padding: 1%;
     position: relative;
     align-items: center;
     display: flex;
@@ -444,21 +456,22 @@ body
 {
     width: 100%;
     height: auto;
-    margin-top: 100px;
+    
 
 }
 
 .swiper
 {
     
-    width: 95%;
-    height: 93%;
+    width: 100%;
+    height: 100%;
     border-radius: 35px;
+    
 }
 .swiper-slide img
 {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next {
@@ -470,15 +483,17 @@ body
     background: #FF5C37;
 }
 
-.CONTATOTabela > img
+.CONTATOTabela > a > img
 {
-    width: 20%;
+    width: 100%;
     height: auto;
-    margin: 5px;
+    
 }
 
 .CONTATOTabela > a
 {
+    margin: 1px;
+    
     transition: .2s;
     transform: scale(.9);
 }
@@ -495,11 +510,11 @@ body
     background: #FF5C37;
     border-radius: 250px;
 
-    margin: 0px;
-    position: relative;
+    
+    
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
     /* Rectangle 13 */
 
@@ -509,7 +524,7 @@ body
 
 #instaImg
 {
-    width: 28.5%;
+    width: 100vw;
     height: auto;
 }
 
